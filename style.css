@@ -1,10 +1,10 @@
 *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;}
-body{background:#f5f5f5;color:#332;}
+body{background:#f5f5f5;color:#333;}
 a{text-decoration:none;}
-header{background:url(images/makine1.jpeg)display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;}
+header{background:#1b5e20;color:white;padding:20px 40px;:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;}
 header h1{font-size:28px;}
 nav a{color:white;margin:0 15px;font-weight:bold;}
-.hero{height:500px;background:url('a.jpeg') center/cover;display:flex;align-items:center;justify-content:center;color:white;text-align:center;}
+.hero{height:500px;background:url('images/a.jpeg') center/cover;display:flex;align-items:center;justify-content:center;color:white;text-align:center;}
 .hero h2{font-size:50px;background:rgba(0,0,0,0.5);padding:20px;border-radius:10px;}
 .section{padding:80px 20px;max-width:1200px;margin:auto;}
 .section h2{text-align:center;margin-bottom:40px;font-size:32px;}
