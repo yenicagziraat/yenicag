@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teklif Al | Yeniçağ Ziraat Makineleri</title>
+<link rel="stylesheet" href="style.css">
+<style>
+form{
+  max-width:500px;
+  margin:50px auto;
+  background:white;
+  padding:30px;
+  border-radius:10px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+form input, form textarea{
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+  border:1px solid #ccc;
+  border-radius:5px;
+}
+form button{
+  width:100%;
+  padding:12px;
+  background:#1b5e20;
+  color:white;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+}
+form button:hover{
+  background:#145214;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>YENİÇAĞ ZİRAAT</h1>
+<nav>
+<a href="index.html">Ana Sayfa</a>
+<a href="urunler.html">Ürünler</a>
+<a href="teklif.html">Teklif / İletişim</a>
+</nav>
+</header>
+
+<section class="section" id="iletisim">
+<h2 style="text-align:center;margin-bottom:40px;">Teklif Al / İletişime Geç</h2>
+
+<form onsubmit="alert('Form gönderildi! WhatsApp üzerinden sizinle iletişime geçilecektir'); return false;">
+<input type="text" placeholder="Adınız" required>
+<input type="text" placeholder="Telefon" required>
+<input type="email" placeholder="Email" required>
+<textarea placeholder="İstediğiniz makine veya detaylar" required></textarea>
+<button type="submit">Gönder</button>
+</form>
+
+<p style="text-align:center;margin-top:20px;">
+<a href="https://wa.me/905356169576" style="background:#25D366;color:white;padding:12px 20px;border-radius:50px;text-decoration:none;font-weight:bold;">WhatsApp ile Hemen Teklif Al</a>
+</p>
+
+</section>
+
+<footer>
+<p style="text-align:center;padding:20px;background:#222;color:white;">© 2026 Yeniçağ Ziraat Makineleri | Tüm Hakları Saklıdır</p>
+</footer>
+
+</body>
+</html>
